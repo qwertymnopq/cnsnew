@@ -1,0 +1,20 @@
+import java.security.MessageDigest; 
+import java.security.NoSuchAlgorithmException; 
+ 
+public class Main { 
+    public static String encryptThisString(String input) throws NoSuchAlgorithmException { 
+        MessageDigest md = MessageDigest.getInstance("SHA-512"); 
+        byte[] messageDigest = md.digest(input.getBytes()); 
+        StringBuilder hashtext = new StringBuilder(new java.math.BigInteger(1, 
+messageDigest).toString(16)); 
+        while (hashtext.length() < 128) hashtext.insert(0, "0"); 
+        return hashtext.toString(); 
+    } 
+ 
+    public static void main(String[] args) throws NoSuchAlgorithmException { 
+        String[] inputs = {"GeeksForGeeks", "hello world"}; 
+        for (String input : inputs) { 
+            System.out.println(input + " : " + encryptThisString(input)); 
+        } 
+    } 
+}
