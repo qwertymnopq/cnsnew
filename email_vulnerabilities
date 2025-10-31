@@ -1,0 +1,41 @@
+Aim:
+
+  To study and analyze the common security vulnerabilities in an E-mail application.
+
+Introduction:
+
+  E-mail applications are used to send and receive messages over the internet.
+
+  They can face many security problems if not properly protected.
+  
+  Studying these vulnerabilities helps to make e-mail systems more secure.
+
+Common Vulnerabilities:
+
+  Weak passwords make it easy for hackers to access accounts.
+
+  No encryption allows attackers to read messages.
+  
+  Phishing emails trick users into giving personal information.
+  
+  Spam emails can spread viruses and malware.
+  
+  Fake sender addresses can be used to fool users.
+  
+  Insecure attachments may contain harmful files.
+  
+  Poor configuration may allow unauthorized access.
+  
+  Old software can have security holes.
+  
+  No logging makes it hard to detect attacks.
+  
+  Shared or public devices can leak login details.
+
+Observation:
+
+  E-mail applications are often attacked through phishing, weak passwords, or malware attachments.
+
+Result:
+
+  Different security vulnerabilities in e-mail applications were studied and understood.
