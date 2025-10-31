@@ -1,0 +1,41 @@
+Aim:
+
+  To study the different types of vulnerabilities that can be used to hack websites or web applications.
+
+Introduction:
+
+  Web applications are often exposed to the internet and can be attacked if not secured properly.
+
+  Hackers find weaknesses in websites, known as vulnerabilities, to steal data or damage systems.
+  
+  Understanding these vulnerabilities helps in protecting websites from attacks.
+
+Types of Vulnerabilities:
+
+  SQL Injection: Attackers insert harmful SQL code to access or modify database data.
+  
+  Cross-Site Scripting (XSS): Hackers inject malicious scripts into web pages seen by users.
+  
+  Cross-Site Request Forgery (CSRF): Makes users perform actions without their knowledge.
+  
+  Broken Authentication: Weak login systems allow attackers to steal user accounts.
+  
+  Security Misconfiguration: Improper setup of servers or applications gives attackers entry.
+  
+  Sensitive Data Exposure: Poor encryption causes leakage of passwords or personal data.
+  
+  Insecure File Uploads: Hackers upload harmful files to run code on the server.
+  
+  Using Components with Known Vulnerabilities: Old software libraries can be easily attacked.
+  
+  Unvalidated Input: Not checking user input allows attackers to exploit the system.
+  
+  Insufficient Logging and Monitoring: Delays in detecting attacks make systems more vulnerable.
+
+Observation:
+
+  Different website vulnerabilities were studied, and each can cause serious security risks if not fixed.
+
+Result:
+
+  The various types of web application vulnerabilities were successfully studied and understood.
