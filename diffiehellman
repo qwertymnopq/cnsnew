@@ -1,0 +1,20 @@
+class DiffieHellman { 
+    private static long power(long a, long b, long p) { 
+        return (long) Math.pow(a, b) % p; 
+    } 
+    public static void main(String[] args) { 
+        long P = 23, G = 9, a = 4, b = 3; 
+        System.out.println("P = " + P + ", G = " + G); 
+ 
+        System.out.println("Alice's private key = " + a); 
+        System.out.println("Bob's private key = " + b); 
+
+        long x = power(G, a, P);  // Alice's public key 
+        long y = power(G, b, P);  // Bob's public key 
+        System.out.println("Alice's public key = " + x); 
+        System.out.println("Bob's public key = " + y); 
+
+        System.out.println("Alice's secret key = " + power(y, a, P)); 
+        System.out.println("Bob's secret key = " + power(x, b, P)); 
+    } 
+} 
