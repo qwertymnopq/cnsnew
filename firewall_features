@@ -1,0 +1,47 @@
+Introduction:
+
+    A firewall is a network security system that monitors and controls incoming and outgoing network traffic.
+    
+    It acts as a barrier between a trusted internal network and untrusted external networks such as the internet.
+    
+    Firewalls can be hardware-based, software-based, or a combination of both.
+    
+    Windows provides an inbuilt Windows Defender Firewall to protect the system from unauthorized access.
+
+Features of Firewall in Network Security:
+
+    Traffic Filtering : Firewalls monitor and control incoming and outgoing network traffic based on predefined security rules.
+    
+    Packet Inspection : They inspect data packets to determine whether they should be allowed through or blocked.
+    
+    Access Control : Firewalls enforce access policies by allowing or denying traffic from specific IP addresses, ports, or protocols.
+    
+    Protection Against Unauthorized Access : They block unauthorized users from accessing private networks connected to the internet.
+    
+    Application-Level Filtering : Advanced firewalls can filter traffic based on applications, preventing risky software from communicating over the network.
+    
+    Logging and Alerts : Firewalls log traffic and generate alerts for suspicious activities, aiding in threat detection and response.
+    
+    VPN Support : Many firewalls support Virtual Private Networks (VPNs), enabling secure remote access.
+    
+    Intrusion Prevention : Some firewalls include intrusion detection and prevention systems (IDPS) to block known attack patterns.
+    
+    Network Address Translation (NAT) : Firewalls often perform NAT, hiding internal IP addresses from external networks for added security.
+    
+    Policy Enforcement : They help enforce organizational security policies by controlling how devices communicate.
+
+Setting Firewall Security in Windows:
+
+    Go to Start > Control Panel > Windows Firewall
+    
+    Choose between Private and Public network profiles
+    
+    Click “Allow an app or feature through Windows Firewall” to manage exceptions
+    
+    Use Windows Firewall with Advanced Security (WFAS) for detailed rule configuration (protocols, ports, IP ranges)
+    
+    Enable features like “Stealth Mode” and “Boot-time Filtering” for enhanced protection
+    
+    Assign network profiles using Network Location Awareness (NLA): Public, Private, or Domain
+    
+    Always ensure administrative rights before making changes
