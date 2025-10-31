@@ -1,0 +1,43 @@
+Common Browser Vulnerabilities:
+
+      JavaScript Exploits -  Malicious scripts can run in your browser and steal data or install malware.
+      
+      ActiveX and Flash Vulnerabilities -  These outdated plugins can be exploited to gain access to your system.
+      
+      Cookie Theft -  Attackers can steal cookies to hijack sessions and impersonate users.
+      
+      Phishing Attacks -  Fake websites trick users into entering sensitive information.
+      
+      Drive-by Downloads -  Malware is downloaded automatically when visiting compromised sites.
+      
+      Cross-Site Scripting (XSS) -  Injected scripts run in your browser, stealing data or redirecting you.
+      
+      Man-in-the-Middle (MITM) Attacks - Unencrypted connections can be intercepted and altered.
+      
+      Browser Extension Abuse -  Malicious or poorly coded extensions can leak data or inject ads.
+      
+      Unpatched Vulnerabilities -  Using outdated browsers leaves you open to known exploits.
+      
+      Autofill and Password Storage Risks  - Saved credentials can be accessed by malware or other users.
+
+Google Chrome Security Steps:
+
+      Keep Chrome Updated Always use the latest version to receive security patches and bug fixes.
+      
+      Enable Safe Browsing Go to Settings > Privacy and Security > Security and turn on “Enhanced protection” to block dangerous sites and downloads.
+      
+      Use Incognito Mode Browse privately without saving history, cookies, or site data.
+      
+      Block Third-Party Cookies In Privacy and Security > Cookies and other site data, choose “Block third-party cookies.”
+      
+      Control Site Permissions Manage access to camera, microphone, location, and notifications under Site Settings.
+      
+      Use HTTPS-Only Mode Force secure connections by enabling “Always use secure connections” in Security settings.
+      
+      Review Extensions Remove unused or suspicious extensions from chrome://extensions.
+      
+      Disable Autofill for Passwords Use a trusted password manager instead of saving passwords in Chrome.
+      
+      Scan for Harmful Software Use Chrome’s built-in cleanup tool under Settings > Reset and clean up > Clean up computer.
+      
+      Enable Two-Factor Authentication (2FA) For Google accounts and other services, add an extra layer of login security.
